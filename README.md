@@ -3,6 +3,35 @@
 ¡Hola! Soy David Santos, un apasionado desarrollador backend junior con una gran pasión por el liderazgo, el trabajo en equipo y la eficiencia. Mi enfoque versátil y mi habilidad para adaptarme a nuevos desafíos me convierten en un activo valioso para cualquier equipo de desarrollo.
 
 ## Acerca de Mí 💡
+```java
+public class Bio {
+    String name = "David Andres Santos Mosquera";
+    String pronouns = "he/him";
+    String passions = "Desarrollo web, desarrollo de aplicaciones";
+    String location = "Bucaramanga, Colombia";
+
+    public static void main(String[] args) {
+        Bio bio = new Bio();
+        System.out.println("Name: " + bio.name);
+        System.out.println("Pronouns: " + bio.pronouns);
+        System.out.println("Passions: " + bio.passions);
+        System.out.println("Location: " + bio.location);
+    }
+}
+
+public class Skills {
+    String[] languages = {"Java", "Spring Boot", "SQL", "MySQL", "PosgreSQL", "PHP", "Python", "HTML", "CSS", "JavaScript", "Bootstrap"};
+    String[] databases = {"MySQL", "PosgreSQL", "SQLServer"};
+    String[] frameworks = {"Spring Boot", "Jira"};
+
+    public static void main(String[] args) {
+        Skills skills = new Skills();
+        System.out.println("Languages: " + String.join(", ", skills.languages));
+        System.out.println("Databases: " + String.join(", ", skills.databases));
+        System.out.println("Frameworks: " + String.join(", ", skills.frameworks));
+    }
+}
+```
 
 - 💼 **Liderazgo**: Me destaco como líder, motivando a mi equipo hacia el éxito y fomentando un ambiente colaborativo.
 - 👥 **Trabajo en Equipo**: Disfruto trabajando en equipo, colaborando con otros para lograr resultados excepcionales.

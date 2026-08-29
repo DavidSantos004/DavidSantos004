@@ -1,117 +1,52 @@
-# David Santos 🚀
+# David Santos
 
-¡Hola! Soy David Santos, un apasionado desarrollador backend junior con una gran pasión por el liderazgo, el trabajo en equipo y la eficiencia. Mi enfoque versátil y mi habilidad para adaptarme a nuevos desafíos me convierten en un activo valioso para cualquier equipo de desarrollo.
+**Desarrollador de Software Full-Stack** · Bucaramanga, Colombia
 
-## Acerca de Mí 💡
-```java
-public class Bio {
-    String name = "David Andres Santos Mosquera";
-    String pronouns = "he/him";
-    String passions = "Desarrollo web, desarrollo de aplicaciones";
-    String location = "Bucaramanga, Colombia";
+Construyo productos completos: modelo de datos, API, interfaz y puesta en producción.
+Trabajo en Industrias CTS, donde desarrollo las plataformas internas de ingeniería,
+producción y monitoreo de un fabricante de tableros eléctricos.
 
-    public static void main(String[] args) {
-        Bio bio = new Bio();
-        System.out.println("Name: " + bio.name);
-        System.out.println("Pronouns: " + bio.pronouns);
-        System.out.println("Passions: " + bio.passions);
-        System.out.println("Location: " + bio.location);
-    }
-}
+Lo que más me interesa son los problemas que no se resuelven llamando a una librería:
+sincronización de datos en vivo entre varios usuarios, rendimiento con miles de registros
+en pantalla y motores de reglas que el usuario final pueda configurar por su cuenta.
 
-public class Skills {
-    String[] languages = {"Java", "Spring Boot", "SQL", "MySQL", "PosgreSQL", "PHP", "Python", "HTML", "CSS", "JavaScript", "Bootstrap"};
-    String[] databases = {"MySQL", "PosgreSQL", "SQLServer"};
-    String[] frameworks = {"Spring Boot", "Jira"};
+---
 
-    public static void main(String[] args) {
-        Skills skills = new Skills();
-        System.out.println("Languages: " + String.join(", ", skills.languages));
-        System.out.println("Databases: " + String.join(", ", skills.databases));
-        System.out.println("Frameworks: " + String.join(", ", skills.frameworks));
-    }
-}
-```
+### En qué trabajo
 
-- 💼 **Liderazgo**: Me destaco como líder, motivando a mi equipo hacia el éxito y fomentando un ambiente colaborativo.
-- 👥 **Trabajo en Equipo**: Disfruto trabajando en equipo, colaborando con otros para lograr resultados excepcionales.
-- 🎯 **Eficiente**: Me comprometo a lograr resultados de manera eficiente, optimizando procesos y mejorando la productividad.
-- 💻 **Desarrollador Backend Junior**: Tengo experiencia en el desarrollo de aplicaciones backend utilizando tecnologías como Java y Spring Boot.
-- 🛠️ **Tecnologías**: Mis habilidades incluyen Java, Spring Boot, PostgreSQL, MySQL y más.
+**Plataforma de gestión de flujos de trabajo**
+Motor de automatizaciones, motor de fórmulas en Web Worker, sincronización en tiempo real
+y visores de PDF/Excel/Word dentro del navegador.
+`React 19` `TypeScript` `NestJS` `Prisma` `PostgreSQL` `Socket.IO` `AWS S3`
 
-## Habilidades Técnicas 🛠️
+**HMI de monitoreo industrial**
+Supervisión en tiempo real de dispositivos Modbus TCP/RTU, alarmas a nivel de bit,
+visualización 3D de gabinetes eléctricos y despliegue en modo kiosko sobre Raspberry Pi.
+`React` `Three.js` `Zustand` `Modbus` `Raspberry Pi`
 
-- **Lenguajes**: Java, SQL, HTML, CSS, JavaScript
-- **Frameworks**: Spring Boot
-- **Bases de Datos**: PostgreSQL, MySQL, SQLite
-- **Herramientas**: Git, GitHub, Visual Studio Code, IntelliJ IDEA
+**Plataforma de monitoreo IoT**
+Telemetría con series de tiempo en InfluxDB y arquitectura de notificaciones sobre
+AWS SQS + Lambda hacia WhatsApp y correo.
+`NestJS` `InfluxDB` `AWS SQS` `AWS Lambda` `Mapbox GL`
 
-¡Estoy emocionado por nuevas oportunidades donde pueda contribuir con mis habilidades y aprender de un equipo talentoso!
+**Gestión de pruebas FAT de tableros eléctricos**
+Digitalización de formatos de inspección y ensayo, con trazabilidad por tablero.
+`React` `NestJS` `PostgreSQL` `Docker`
 
-## Contacto 📫
+> El código de estos proyectos es privado — es software interno de la empresa.
 
-¡No dudes en contactarme! Estoy siempre abierto a nuevas oportunidades de colaboración y aprendizaje.
+---
 
-- 🌐 [LinkedIn](https://www.linkedin.com/in/davidsantos004/)
-- ✉️ [Correo Electrónico](mailto:david.santoos004@gmail.com)
+### Tecnologías
 
+**Día a día** — TypeScript · React · NestJS · Node.js · PostgreSQL · Prisma · Docker · Nginx
+**Tiempo real y datos** — Socket.IO · InfluxDB · Three.js · Web Workers
+**Nube** — AWS (SQS, Lambda, ECS, S3, SES) · GitHub Actions
+**Industrial** — Modbus TCP/RTU · MQTT · Raspberry Pi
+**También he trabajado con** — Java · Spring Boot · Python · PHP · MySQL
 
-# Estadísticas y Lenguajes
+---
 
-## Estadísticas
+### Contacto
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=DavidSantos004&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=DavidSantos004&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph"  />
-</div>
-
-## Lenguajes
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40" alt="java logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" height="40" alt="spring logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40" alt="mysql logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="40" alt="postgresql logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" height="40" alt="sqlite logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="git logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" alt="github logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40" alt="vscode logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" height="40" alt="intellij logo"  />
-</div>
-
-
-# Redes Sociales
-
-<div align="left">
-  <a href="https://www.linkedin.com/in/davidsantos004/" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
-  </a>
-  <a href="discord://.santos04" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="52" height="40" alt="discord logo"  />
-  </a>
-  <a href="https://www.instagram.com/davidsantos_004/" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="52" height="40" alt="instagram logo"  />
-  </a>
-
-  # Contacto
-
-  <a href="mailto:david.santoos004@gmail.com?subject=¡Hola David!&body=Hola David,%0D%0A%0D%0A" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="52" height="40" alt="gmail logo"  />
-  </a>
-
-</div>
-
-###
-
-<img src="https://raw.githubusercontent.com/DavidSantos004/DavidSantos004/output/snake.svg" alt="Snake animation" />
-
-###
+[LinkedIn](https://linkedin.com/in/davidsantos004) · david.santoos004@gmail.com

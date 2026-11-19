@@ -48,6 +48,8 @@ sus propias pruebas que bloquean lo que no debe pasar, y varios agentes en paral
 un revisor por solicitud. Yo mido, decido y apruebo.
 `Claude Code` `Orca` `hooks` `skills` `MCP`
 
+La plantilla de ese entorno, sin nada de la empresa, está en [entorno-agentes](https://github.com/DavidSantos004/entorno-agentes): `CLAUDE.md` por capas, reglas por área, skill de verificación y hook de bloqueos con pruebas.
+
 ---
 
 ### Tecnologías

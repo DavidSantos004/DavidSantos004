@@ -1,6 +1,6 @@
 # David Santos
 
-**Desarrollador de Software Full-Stack** · Bucaramanga, Colombia
+**Desarrollador Full-Stack · IA** · Bucaramanga, Colombia
 
 [Portafolio con demos](https://davidsantos-eight.vercel.app) · [Hoja de vida](https://davidsantos-eight.vercel.app/David-Santos-HV.pdf) · [CV in English](https://davidsantos-eight.vercel.app/David-Santos-CV-EN.pdf)
 
@@ -52,12 +52,23 @@ La plantilla de ese entorno, sin nada de la empresa, está en [entorno-agentes](
 
 ---
 
+### IA dentro del producto
+
+**[jarvis-os](https://github.com/DavidSantos004/jarvis-os)** · asistente de casa con modelo de lenguaje, en desarrollo.
+El modelo nunca ejecuta nada: propone una acción estructurada (tool calling), el código la valida
+contra un esquema y un orquestador decide según el riesgo; lo irreversible espera confirmación humana.
+Dos proveedores detrás del mismo puerto: Ollama en local y la API de Anthropic.
+`Python` `FastAPI` `Pydantic` `PostgreSQL` `API de Anthropic` `Ollama` `Home Assistant` `pytest`
+
+---
+
 ### Tecnologías
 
 **Día a día** — TypeScript · React · NestJS · Node.js · PostgreSQL · Prisma · Docker · Nginx
 **Tiempo real y datos** — Socket.IO · InfluxDB · Three.js · Web Workers
 **Nube y entrega** — AWS (SQS, Lambda, ECS, S3, SES) · GitHub Actions (CI/CD) · Docker Compose · Jest · Vitest
 **Industrial** — Modbus TCP/RTU · MQTT · Raspberry Pi
+**IA aplicada** — Tool calling · Salidas estructuradas · API de Anthropic · Ollama · Orquestación con confirmación humana
 **También he trabajado con** — Java · Spring Boot · Python · PHP · MySQL
 
 ---
